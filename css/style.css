@@ -1,0 +1,288 @@
+.card-img-top {
+  width: 250px;
+  height: 200px;
+  align-self: center;
+}
+.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
+.card-img-top {
+  width: 250px;
+  height: 200px;
+  align-self: center;
+}
+
+.card{
+  padding-top:0.5em;
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+.card-text{
+  color: #083f6bfd;
+}
+.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
+
+body{
+  background-image:linear-gradient(90deg, #1b94c4e8, #036891da);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  overflow-x:hidden;
+
+}
+
+.navstyle{
+  height: 126px;
+  margin-top: -2em;
+  margin-left: -8em;
+}
+@media only screen and (max-width: 768px){
+  html,
+  body{
+  width:100%;
+  overflow-x:hidden;
+  }
+  .navstyle{
+    height: 0;
+    margin-top: 1em;
+    margin-left: -6em;
+
+  }
+}
+
+/* Tabs STyle */
+section {
+	padding: 0;
+}
+.tabs {
+	list-style-type: block;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+.tab {
+	background: #404040;
+	cursor: pointer;
+	color: #CCC;
+	padding: 12px 15px;
+
+	&.tab--active {
+		background: tomato;
+		color: white;
+	}
+}
+
+.tab-content__section {
+	background: #efefef00;
+  
+}
+
+/* Footer Style*/
+.footer{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+.footer .tabs{
+  width: 100%;
+}
+.footer .tabs .tab{
+  width: 100%;
+  background-color: #036991;
+}
+.footer .tabs .tab:hover{
+  width: 100%;
+  background-color: #2f9ac5e8;
+}
+.footer .tabs .tab:hover:active{
+  width: 100%;
+  background-color: #309bc5e8;
+}
+
+
+/* Logo and Round Session*/
+
+#Authorimage1 img{
+  width: 60%;
+ margin-top: -60px
+}
+
+#Authorimage1{
+    
+     
+  background-color: #fff;
+     padding-top: 35%;
+     padding-bottom: 5em;
+     border-radius: 100% / 0% 0% 40% 40%;
+}
+
+@media screen and (min-width: 1024px) {
+    
+  #Authorimage1 img{
+       width: 22%;
+       margin-top: 0;
+       
+  }
+  #Authorimage1{
+       padding-top: 10%;
+  }
+}
+
+.bg_main {
+    
+  width: 100%;
+   float: left;
+   text-align: center;
+   position: relative;
+   top: -35px;
+}
+
+
+#Authorimage img{
+  width: 20%;
+  padding-top: 5px;
+  margin-top: -4em;
+ 
+}
+@media screen and (max-width: 748px) {
+    
+  
+   #Authorimage img{
+       width: 33%;
+       padding-top: 5px;
+       margin-top: -4em;
+      
+  }
+}
+
+
+
+/* Tab 1 contnt style */
+.some-page-wrapper {
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1
+}
+
+.orange-column {
+  background-color: orange;
+  height: 100px;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 100px;
+}
+
+.green-column {
+  background-color: green;
+  height: 100px;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2
+}
+
+.details-box{
+  width: 33%; 
+  background-color:#fff; 
+  padding-top: 0.5em;
+  border-radius:1em;
+  text-align:center;
+  margin: 0.3em;
+}
+.column11{
+  padding-top: 15px;
+  color: #242323;
+  font-size:small;
+}
+.column22{
+  padding-top: 15px;
+  color: #242323;
+  font-size:small;
+}
+.column33{
+  padding-top: 15px;
+  color: #242323;
+  font-size:small;
+}
+.about_text{
+  text-align: center;
+  color: #fff;
+}
+.lorem_text{
+  text-align: center;
+  color: #fff;
+}
+.text-center{
+color: #fff;
+margin-bottom: 2.2em;
+}
+.products{
+  text-align:center; 
+  padding-left: 2em; 
+  margin-bottom:1em;
+
+}
+
+.form-control{
+ margin-top: 1em;
+
+}
+
+
+/*Button style*/
+.btnstyle{
+  background-color: #008CBA;
+  border: none;
+  border-color: #CCC;
+  border-radius: 3px;
+  color: #fff;
+}
+.btnstyle:active{
+  background-color: #4CAF50;
+}
+.btnstyle:focus{
+  background-color: #4CAF50;
+}
+
+.add-to-cart {
+  margin-left: 3em;
+
+}
+@media screen and (max-width: 748px) {
+    
+  .add-to-cart {
+    margin-left: 6.53em;
+
+  }
+}
+
+
+ 
